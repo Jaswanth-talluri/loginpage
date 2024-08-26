@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: 0.3s ease-in-out;
+
+}
+
+body {
+    background: url("1.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.navbar {
+    color: white;
+    display: flex;
+    /* position: absolute; */
+    align-items: center;
+    top: 0;
+    padding: 10px;
+    justify-content: center;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+    background-color: black;
+    height: 100%;
+    /* background-size: cover; */
+    width: 100%;
+}
+
+#icon {
+    color: rgb(255, 132, 0);
+    font-size: 45px;
+    /* width: 300px; */
+    padding: 5px 30px 5px 30px;
+}
+
+ul {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 25px 100px 25px 128px;
+
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 3px 15px;
+    margin: 2px;
+    /* transition: 0.4s ease-in; */
+    border: 2px solid transparent;
+    margin: 20px;
+}
+
+ul li a:hover {
+    border: 2px solid orange;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(255, 132, 0);
+    /* padding:3px 15px; */
+    border-radius: 50px;
+    transition: 0.3s ease-in;
+}
+
+.search {
+    padding-left: 10px;
+}
+
+.navbar input {
+    background-color: transparent;
+    border: 3px solid rgb(255, 132, 0);
+    font-size: 20px;
+    padding-left: 10px;
+    margin-left: 6px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    outline: none;
+    color: white;
+}
+
+.navbar #ser {
+    font-size: 18px;
+    border: 2px solid rgb(255, 132, 0);
+    background-color: rgb(255, 132, 0);
+    padding: 2px;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#ser:hover {
+    background-color:orange
+    
+}
+#ser:focus{
+    outline: none;
+}
+
+#divser {
+    display: flex;
+}
+
+.about {
+    width: 800px;
+    height: 450px;
+    position: relative;
+    top: 100px;
+    left: 60px;
+
+}
+
+.about>h4 {
+    font-size: 60px;
+    width: 500px;
+    color: white;
+}
+
+.dev {
+    color: rgb(255, 132, 0);
+    font-size: 80px;
+}
+
+.about>p {
+    /* max-width: 900px; */
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    padding-left: 0px;
+    line-height: 30px;
+    font-weight: bold;
+
+}
+
+#join {
+    background-color: rgb(255, 132, 0);
+    padding: 10px 40px;
+    border: 0px;
+    border-radius: 10px;
+    margin: 10px 0px;
+    font-size: 20px;
+    width: 200px;
+}
+
+.log {
+    display: flex;
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    color: white;
+    height: 450px;
+    width: 320px;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    border-radius: 10px;
+    justify-content: space-around;
+    /* box-shadow: 5px 5px 50px rgba(255, 255, 255, 0.53); */
+}
+
+.log h3 {
+    background-color: white;
+    font-size: 25px;
+    color: rgb(255, 132, 0);
+    padding: 10px 70px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+.log input {
+    background: transparent;
+    border: 0px;
+    border-bottom: 1px solid rgb(255, 132, 0);
+    width: 260px;
+    font-size: 16px;
+    padding: 5px 0px;
+    color: white;
+    margin: 10px;
+}
+input{
+    border: none;
+}
+input:hover{
+    /* border: none; */
+}
+input::placeholder {
+    color: white;
+}
+
+input:focus::placeholder {
+    opacity: 0.2;
+}
+
+#login {
+    width: 260px;
+    background-color: rgb(255, 132, 0);
+    padding: 10px 80px;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 20px;
+    /* height: 40px; */
+
+}
+#login:hover{
+    letter-spacing: 5px;
+    /* font-size:23px; */
+}
+
+#signup {
+    width: 150px;
+    line-height: 23px;
+    text-align: center;
+}
+
+#signup a {
+    text-decoration: none;
+    color: rgb(255, 132, 0);
+}
+
+.with {
+    font-size: 13px;
+}
+
+.pic {
+    display: flex;
+}
+
+.pic>img {
+    padding: 5px 5px 15px 5px;
+}
+button:hover{
+    cursor: pointer;
+    /* letter-spacing: 2px; */
+    text-align: center;
+    justify-content: center;
+    /* transition: 0.4s ease-in-out; */
+}
+#join:hover{
+    letter-spacing: 2px;
+}
